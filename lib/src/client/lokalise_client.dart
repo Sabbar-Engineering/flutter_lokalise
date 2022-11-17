@@ -38,6 +38,9 @@ class LokaliseClient {
         },
         body: jsonEncode(requestBody.toJson()));
     return LokaliseResponse.from(
-        response, (json) => FilesDownloadResponseBody.fromJson(json));
+        response, (json) {
+          print('LokaliseResponse: JSON $json');
+      return FilesDownloadResponseBody.fromJson(json);
+    });
   }
 }
