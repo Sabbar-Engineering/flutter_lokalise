@@ -312,7 +312,9 @@ class _$_FilesDownloadRequestBody implements _FilesDownloadRequestBody {
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_FilesDownloadRequestBodyToJson(this);
+    return _$$_FilesDownloadRequestBodyToJson(
+      this,
+    );
   }
 }
 
@@ -340,31 +342,31 @@ abstract class _FilesDownloadRequestBody implements FilesDownloadRequestBody {
       _$_FilesDownloadRequestBody.fromJson;
 
   @override
-  String get format => throw _privateConstructorUsedError;
+  String get format;
   @override
   @JsonKey(name: "original_filenames")
-  bool? get originalFilenames => throw _privateConstructorUsedError;
+  bool? get originalFilenames;
   @override
   @JsonKey(name: "all_platforms")
-  bool? get allPlatforms => throw _privateConstructorUsedError;
+  bool? get allPlatforms;
   @override
   @JsonKey(name: "plural_format")
-  String? get pluralFormat => throw _privateConstructorUsedError;
+  String? get pluralFormat;
   @override
   @JsonKey(name: "placeholder_format")
-  String? get placeholderFormat => throw _privateConstructorUsedError;
+  String? get placeholderFormat;
   @override
   @JsonKey(name: "include_tags")
-  Iterable<String>? get includeTags => throw _privateConstructorUsedError;
+  Iterable<String>? get includeTags;
   @override
   @JsonKey(name: "include_comments")
-  bool? get includeComments => throw _privateConstructorUsedError;
+  bool? get includeComments;
   @override
   @JsonKey(name: "include_description")
-  bool? get includeDescription => throw _privateConstructorUsedError;
+  bool? get includeDescription;
   @override
   @JsonKey(name: "json_unescaped_slashes")
-  bool? get jsonUnescapedSlashes => throw _privateConstructorUsedError;
+  bool? get jsonUnescapedSlashes;
   @override
   @JsonKey(ignore: true)
   _$$_FilesDownloadRequestBodyCopyWith<_$_FilesDownloadRequestBody>

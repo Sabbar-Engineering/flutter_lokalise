@@ -159,7 +159,9 @@ class _$_FilesDownloadResponseBody implements _FilesDownloadResponseBody {
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_FilesDownloadResponseBodyToJson(this);
+    return _$$_FilesDownloadResponseBodyToJson(
+      this,
+    );
   }
 }
 
@@ -174,10 +176,10 @@ abstract class _FilesDownloadResponseBody implements FilesDownloadResponseBody {
 
   @override
   @JsonKey(name: "project_id")
-  String? get projectId => throw _privateConstructorUsedError;
+  String? get projectId;
   @override
   @JsonKey(name: "bundle_url")
-  String get bundleUrl => throw _privateConstructorUsedError;
+  String get bundleUrl;
   @override
   @JsonKey(ignore: true)
   _$$_FilesDownloadResponseBodyCopyWith<_$_FilesDownloadResponseBody>

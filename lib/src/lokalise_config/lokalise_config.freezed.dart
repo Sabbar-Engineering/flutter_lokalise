@@ -182,13 +182,13 @@ abstract class _LokaliseConfig implements LokaliseConfig {
       final String? output}) = _$_LokaliseConfig;
 
   @override
-  String? get projectId => throw _privateConstructorUsedError;
+  String? get projectId;
   @override
-  String? get apiToken => throw _privateConstructorUsedError;
+  String? get apiToken;
   @override
-  Iterable<String>? get includeTags => throw _privateConstructorUsedError;
+  Iterable<String>? get includeTags;
   @override
-  String? get output => throw _privateConstructorUsedError;
+  String? get output;
   @override
   @JsonKey(ignore: true)
   _$$_LokaliseConfigCopyWith<_$_LokaliseConfig> get copyWith =>
